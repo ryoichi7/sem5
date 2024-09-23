@@ -26,4 +26,4 @@ set is_banned = true
 where username LIKE 'ivan%';
 
 delete from users
-where user_id = 1
+where user_id = 1;

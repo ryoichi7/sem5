@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>17699497-1f2d-450c-9c57-4e2e6524ee68.SCHEMA:online_shop.public</OriginalElement>
+  <nodes>
+    <node x="-508.8974864926365" y="456.23076605707513">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.carts</node>
+    <node x="-357.7258064516129" y="-244.01798144300412">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.categories</node>
+    <node x="-354.7258064516129" y="-53.12753123733182">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.products</node>
+    <node x="-157.38038834080294" y="251.37542671030883">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.order_items</node>
+    <node x="-671.440446650124" y="-65.5483870967742">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.companies</node>
+    <node x="-183.38038834080294" y="726.5381021009268">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.payments</node>
+    <node x="-886.6997426573291" y="316.79404466501245">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.reviews</node>
+    <node x="-484.95040577808436" y="726.5381021009268">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.orders</node>
+    <node x="-496.8974864926365" y="211.43078867510405">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.cart_items</node>
+    <node x="-884.1997426573291" y="54.451612903225794">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.replies</node>
+    <node x="-909.6997426573291" y="628.1304490271812">17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.users</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.order_items" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.products" relationship="REFERENCES">
+      <point x="-41.5" y="-80.0" />
+      <point x="-115.88038834080294" y="282.84999833654194" />
+      <point x="-74.38038834080294" y="282.84999833654194" />
+      <point x="-74.38038834080294" y="51.196060244139176" />
+      <point x="-251.22580645161293" y="51.196060244139176" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.replies" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.companies" relationship="REFERENCES">
+      <point x="-4.8585607940445925" y="-82.12903225806451" />
+      <point x="-807.0583034513737" y="2.4516129032257936" />
+      <point x="-563.940446650124" y="2.4516129032257936" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.products" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.categories" relationship="REFERENCES">
+      <point x="51.75" y="-116.0" />
+      <point x="-199.47580645161293" y="169.63474554758722" />
+      <point x="-189.41575720466471" y="169.63474554758722" />
+      <point x="-189.41575720466471" y="147.6024906567652" />
+      <point x="-251.22580645161293" y="147.6024906567652" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.cart_items" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.carts" relationship="REFERENCES">
+      <point x="39.25" y="-68.0" />
+      <point x="-379.1474864926365" y="320.1511503234797" />
+      <point x="-424.3974864926365" y="320.1511503234797" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.reviews" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.products" relationship="REFERENCES">
+      <point x="-42.25" y="-92.0" />
+      <point x="-844.4497426573291" y="399.0236819754326" />
+      <point x="-620.9775696434626" y="399.0236819754326" />
+      <point x="-620.9775696434626" y="118.13415950318608" />
+      <point x="-251.22580645161293" y="118.13415950318608" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.order_items" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.orders" relationship="REFERENCES">
+      <point x="41.5" y="-80.0" />
+      <point x="-32.88038834080294" y="390.12487610154267" />
+      <point x="-74.38038834080294" y="390.12487610154267" />
+      <point x="-74.38038834080294" y="667.4298818211022" />
+      <point x="-390.95040577808436" y="667.4298818211022" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.replies" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.reviews" relationship="REFERENCES">
+      <point x="41.0" y="-80.0" />
+      <point x="-761.1997426573291" y="164.54341701812123" />
+      <point x="-789.7032155236825" y="164.54341701812123" />
+      <point x="-789.7032155236825" y="189.12480253395643" />
+      <point x="-802.1997426573291" y="189.12480253395643" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.payments" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.orders" relationship="REFERENCES">
+      <point x="0.0" y="-80.0" />
+      <point x="-74.38038834080294" y="806.5381021009268" />
+      <point x="-390.95040577808436" y="806.5381021009268" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.orders" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.users" relationship="REFERENCES">
+      <point x="0.0" y="-80.0" />
+      <point x="-390.95040577808436" y="810.0187502079323" />
+      <point x="-802.1997426573291" y="810.0187502079323" />
+      <point x="0.0" y="140.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.reviews" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.users" relationship="REFERENCES">
+      <point x="42.25" y="-92.0" />
+      <point x="-759.9497426573291" y="408.79404466501245" />
+      <point x="-802.1997426573291" y="408.79404466501245" />
+      <point x="0.0" y="140.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.products" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.companies" relationship="REFERENCES">
+      <point x="-51.75" y="-116.0" />
+      <point x="-302.9758064516129" y="2.4516129032257936" />
+      <point x="-563.940446650124" y="2.4516129032257936" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.carts" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.users" relationship="REFERENCES">
+      <point x="0.0" y="-56.0" />
+      <point x="-424.3974864926365" y="695.3770838185085" />
+      <point x="-802.1997426573291" y="695.3770838185085" />
+      <point x="0.0" y="140.0" />
+    </edge>
+    <edge source="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.cart_items" target="17699497-1f2d-450c-9c57-4e2e6524ee68.TABLE:online_shop.public.products" relationship="REFERENCES">
+      <point x="-39.25" y="-68.0" />
+      <point x="-457.6474864926365" y="271.83325671384034" />
+      <point x="-251.22580645161293" y="271.83325671384034" />
+      <point x="0.0" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7641149114928539" showDependencies="false" x="-405.4558333119103" y="311.77848562593306" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

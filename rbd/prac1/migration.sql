@@ -71,3 +71,21 @@ CREATE TABLE payments (
                           payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                           amount NUMERIC(10, 2) NOT NULL
 );
+
+CREATE TABLE companies (
+                           company_id SERIAL PRIMARY KEY,
+                           company_name VARCHAR(255) NOT NULL,
+                           company_description TEXT,
+                           created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+ALTER TABLE products
+    ADD COLUMN company_id INT REFERENCES companies(company_id) ON DELETE SET NULL;
+
+CREATE TABLE replies (
+                         reply_id SERIAL PRIMARY KEY,
+                         review_id INT REFERENCES reviews(review_id) ON DELETE CASCADE,
+                         company_id INT REFERENCES companies(company_id) ON DELETE CASCADE,
+                         reply_text TEXT NOT NULL,
+                         replied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
