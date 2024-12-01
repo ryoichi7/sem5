@@ -1,0 +1,372 @@
+{
+  "generator": "studioFront",
+  "generated_by_front_version": "1.7.4",
+  "created_by_front_version": "1.7.4",
+  "consumer": "import",
+  "uuid": "0a3aac99-e731-4a25-b17a-d818b4d30675",
+  "name": "ПР4_СамойловММ",
+  "description": "Добавление текста в test.docx файл",
+  "nodes_direction": "fromLeftToRigth",
+  "verbose": false,
+  "default_timeout": null,
+  "py_libraries": [],
+  "rights": [
+    "ryoichidoto"
+  ],
+  "robot_graphs": [
+    {
+      "name": "ПР4_СамойловММ",
+      "uuid": "8534a2b7-7e5a-44f7-989e-903fa71b913c",
+      "annotation": null,
+      "snippet_robot_uuid": null,
+      "snippet_robot_version_uuid": null,
+      "snippet_meta": null,
+      "snippet_parent_node_uuid": null,
+      "sha1": "ee2a848733b8d95f39e7aa2e85fc6a0ecc1db800",
+      "vars": {
+        "global": [
+          {
+            "name": "RITA_ENV",
+            "uuid": "512dec49-416e-4dbc-8859-fbeafaad82bc",
+            "value": {},
+            "required": false,
+            "data_type": "base.dictionary",
+            "item_type": "base.string"
+          },
+          {
+            "name": "wApp_test",
+            "uuid": "d1c6e354-9f00-4c6a-8ef2-aa3aaa56361a",
+            "comment": "Хранит информацию о .docx файле ",
+            "required": false,
+            "data_type": "object.wordApp"
+          }
+        ]
+      },
+      "id": "garpa@1.0.0",
+      "nodes": {
+        "1": {
+          "id": 1,
+          "data": {
+            "uuid": "8f18799f-87ad-4f53-8c21-94eebfcecc5c",
+            "vars": {
+              "inputs": [],
+              "outputs": []
+            },
+            "title": "Старт",
+            "input_socket_position": "top",
+            "output_socket_position": "bottom"
+          },
+          "inputs": {},
+          "outputs": {
+            "out_exec": {
+              "connections": [
+                {
+                  "node": 5,
+                  "input": "in_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "position": [
+            -872.0396383170767,
+            -19.358307967736174
+          ],
+          "name": "base.start"
+        },
+        "2": {
+          "id": 2,
+          "data": {
+            "uuid": "1e014171-4398-461b-b5b3-9ed6faf8c0db",
+            "vars": {
+              "inputs": [],
+              "outputs": []
+            },
+            "title": "Финиш",
+            "input_socket_position": "top",
+            "output_socket_position": "bottom"
+          },
+          "inputs": {
+            "in_exec": {
+              "connections": [
+                {
+                  "node": 9,
+                  "output": "out_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "outputs": {},
+          "position": [
+            1126.2495863949296,
+            -19.358307967736174
+          ],
+          "name": "base.finish"
+        },
+        "5": {
+          "id": 5,
+          "data": {
+            "uuid": "399081f6-97ac-4765-8442-62c8e6214428",
+            "vars": {
+              "inputs": [
+                {
+                  "name": "file_path",
+                  "uuid": "d83b7479-178e-428f-9e9b-83e4f5043226",
+                  "value": "C:\\Users\\ryoic\\Desktop\\test.docx",
+                  "data_type": "base.string"
+                },
+                {
+                  "name": "create_if_none",
+                  "uuid": "7c1d5b17-1e53-49db-a973-0a2199f35c03",
+                  "value": true,
+                  "data_type": "base.bool"
+                },
+                {
+                  "name": "read_only",
+                  "uuid": "7495c036-aa2c-48b9-8eda-4e1a9bd01216",
+                  "value": false,
+                  "data_type": "base.bool"
+                },
+                {
+                  "name": "save_each_action",
+                  "uuid": "e8bb7320-fed3-4bc3-a64a-83e72f7d6de1",
+                  "value": true,
+                  "data_type": "base.bool"
+                }
+              ],
+              "outputs": [
+                {
+                  "ref": "d1c6e354-9f00-4c6a-8ef2-aa3aaa56361a",
+                  "name": "word_app",
+                  "uuid": "a3d8bbd8-7e51-46f5-a83a-fad2ae1e5b36",
+                  "data_type": "object.wordApp"
+                }
+              ]
+            },
+            "title": "Открыть документ Word test.docx",
+            "input_socket_position": "left",
+            "output_socket_position": "right"
+          },
+          "inputs": {
+            "in_exec": {
+              "connections": [
+                {
+                  "node": 1,
+                  "output": "out_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "outputs": {
+            "out_exec": {
+              "connections": [
+                {
+                  "node": 6,
+                  "input": "in_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "position": [
+            -771.0396383170767,
+            -75.85830796773618
+          ],
+          "name": "word.open_word"
+        },
+        "6": {
+          "id": 6,
+          "data": {
+            "uuid": "a147f827-2281-4fdd-8cb8-046b353ff0d8",
+            "vars": {
+              "inputs": [
+                {
+                  "ref": "d1c6e354-9f00-4c6a-8ef2-aa3aaa56361a",
+                  "name": "word_app",
+                  "uuid": "ab7173f6-4500-441e-9636-12cd0fc0cdf1",
+                  "data_type": "object.wordApp"
+                },
+                {
+                  "name": "text",
+                  "uuid": "3c77cd1e-5619-4a79-940b-bf44a059ba00",
+                  "value": "Привет мир!",
+                  "data_type": "base.string"
+                },
+                {
+                  "name": "insert_to",
+                  "uuid": "c383f140-76b6-4627-a239-45c1940df1ff",
+                  "value": "END_DOC",
+                  "data_type": "base.enum"
+                },
+                {
+                  "name": "paragraph",
+                  "uuid": "943f0eff-057f-4790-848a-27cb09881ea4",
+                  "value": null,
+                  "data_type": "base.integer"
+                },
+                {
+                  "name": "new_line",
+                  "uuid": "50255bc2-6283-41fc-b40a-a7ae98efbffb",
+                  "value": true,
+                  "data_type": "base.bool"
+                },
+                {
+                  "name": "font_name",
+                  "uuid": "60a8e20a-3eba-4f43-bb7e-1e1cf333133b",
+                  "value": "",
+                  "data_type": "base.string"
+                },
+                {
+                  "name": "font_size",
+                  "uuid": "89ec1bea-f18b-4aa9-9ac2-0b30aa22e2ea",
+                  "value": null,
+                  "data_type": "base.integer"
+                },
+                {
+                  "name": "font_options",
+                  "uuid": "99e011c1-ae6b-45f6-9e88-07966b048863",
+                  "value": [],
+                  "data_type": "base.list",
+                  "item_type": "base.string"
+                },
+                {
+                  "name": "font_color",
+                  "uuid": "1eb08d31-a575-4328-9267-ab23fe00a5d1",
+                  "value": "",
+                  "data_type": "base.string"
+                }
+              ],
+              "outputs": []
+            },
+            "title": "Добавить текст в Word_test.docx",
+            "input_socket_position": "left",
+            "output_socket_position": "right"
+          },
+          "inputs": {
+            "in_exec": {
+              "connections": [
+                {
+                  "node": 5,
+                  "output": "out_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "outputs": {
+            "out_exec": {
+              "connections": [
+                {
+                  "node": 7,
+                  "input": "in_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "position": [
+            -300.03963831707665,
+            -91.85830796773618
+          ],
+          "name": "word.append_text"
+        },
+        "7": {
+          "id": 7,
+          "data": {
+            "uuid": "afb907ac-bdec-452e-a649-1b455a483796",
+            "vars": {
+              "inputs": [
+                {
+                  "name": "new_path",
+                  "uuid": "c40886ee-07e3-42d2-b3bf-35193deae6e4",
+                  "value": "",
+                  "data_type": "base.string"
+                },
+                {
+                  "ref": "d1c6e354-9f00-4c6a-8ef2-aa3aaa56361a",
+                  "name": "word_app",
+                  "uuid": "df07b1c9-590e-4ee6-bc50-387ae8d065f1",
+                  "data_type": "object.wordApp"
+                }
+              ],
+              "outputs": []
+            },
+            "title": "Сохранить документ Word_test.docx",
+            "input_socket_position": "left",
+            "output_socket_position": "right"
+          },
+          "inputs": {
+            "in_exec": {
+              "connections": [
+                {
+                  "node": 6,
+                  "output": "out_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "outputs": {
+            "out_exec": {
+              "connections": [
+                {
+                  "node": 9,
+                  "input": "in_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "position": [
+            161.54821737236992,
+            -59.858307967736174
+          ],
+          "name": "word.save_word"
+        },
+        "9": {
+          "id": 9,
+          "data": {
+            "uuid": "fa9c6906-b23e-48e4-998a-99767eeba74c",
+            "vars": {
+              "inputs": [
+                {
+                  "ref": "d1c6e354-9f00-4c6a-8ef2-aa3aaa56361a",
+                  "name": "word_app",
+                  "uuid": "bf4d1aa9-cc66-423d-8251-74d5c73cb7f5",
+                  "data_type": "object.wordApp"
+                }
+              ],
+              "outputs": []
+            },
+            "title": "Закрыть документ Word_test.docx",
+            "input_socket_position": "left",
+            "output_socket_position": "right"
+          },
+          "inputs": {
+            "in_exec": {
+              "connections": [
+                {
+                  "node": 7,
+                  "output": "out_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "outputs": {
+            "out_exec": {
+              "connections": [
+                {
+                  "node": 2,
+                  "input": "in_exec",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "position": [
+            630.829371387654,
+            -43.358307967736174
+          ],

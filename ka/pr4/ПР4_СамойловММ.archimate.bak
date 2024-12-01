@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ПР4_СамойловММ" id="id-c67a1126925044ff9f595ea4bb73b169" version="5.0.0">
+  <folder name="Strategy" id="id-579e902583e54dea833658ec41434510" type="strategy">
+    <element xsi:type="archimate:CourseOfAction" name="Стратегия операционной эффективности (Направленние действиие)" id="id-ab7ae377eaa74eb79ca8c9652d61ea3b"/>
+    <element xsi:type="archimate:CourseOfAction" name="Подстратегия &quot;Стандартизация продуктов&quot; (Направление действий)" id="id-907f3b9701954131b184101beb833807"/>
+    <element xsi:type="archimate:Capability" name="Управление продуктами (Способность)" id="id-8d30fbd28f224cbdaf68862abf249804"/>
+    <element xsi:type="archimate:CourseOfAction" name="Подстратегия &quot;централизация ИТ-систем&quot; (направление действий)" id="id-95c330d5bbea4f3d95c977f11845402a"/>
+    <element xsi:type="archimate:Capability" name="Управление и поддержка ИТ (Способность)" id="id-d85617d56d8a4f4faead357d0c34db87"/>
+    <element xsi:type="archimate:Resource" name="Персонал (Ресурс)" id="id-a4e2c3d34b3b4fc392588006d3be4693"/>
+    <element xsi:type="archimate:Resource" name="ИТ ресурсы (Ресурс)" id="id-276189c3026c4e0ca8e26847f387b0f3"/>
+  </folder>
+  <folder name="Business" id="id-51c2d4ff03ff4c529dac6645b7c26b06" type="business">
+    <element xsi:type="archimate:BusinessEvent" name="Запрос на страхование получен (Бизнес-событие)" id="id-ea52b383728d4d25a0e0f10250cd61e6"/>
+    <element xsi:type="archimate:BusinessEvent" name="Запрос удовлетворён (Бизнес-событие)" id="id-9b03626b0a5144688cd0e6bdd50f6e49"/>
+    <element xsi:type="archimate:BusinessProcess" name="Получить запрос (Бизнес-процесс)" id="id-9ba2074bbac94180929eb5676d209c14"/>
+    <element xsi:type="archimate:BusinessProcess" name="Обработать запрос (Бизнес-процесс)" id="id-cb1de70668984ca39097fbbba9c9ddad"/>
+    <element xsi:type="archimate:BusinessProcess" name="Собрать страховые взносы(Бизнес-процесс)" id="id-d267e69e8edb403c9a121a4529203872"/>
+    <element xsi:type="archimate:BusinessFunction" name="Планирование (Бизнес-функционал)" id="id-941e3d3337a14426b20d94c4be7f1d23"/>
+    <element xsi:type="archimate:BusinessFunction" name="Оценка претензий(Бизнес-функционал)" id="id-60a2930a0ed845609e9fb7e597d3e5d6"/>
+    <element xsi:type="archimate:BusinessFunction" name="Урегулирование претензий(Бизнес-функционал)" id="id-0ce7c6c25d7c4190a907c2a1e2f91787"/>
+    <element xsi:type="archimate:BusinessProcess" name="Оформить страховку на поездку (Бизнес-процесс)" id="id-870f978aa6f24d87970d8c281bde4725"/>
+    <element xsi:type="archimate:BusinessProcess" name="Оформить страховку (Бизнес-процесс)" id="id-bc58f271c75f4682afc49842a13798a8"/>
+    <element xsi:type="archimate:BusinessProcess" name="Оформить страховку на багаж (Бизнес-процесс)" id="id-f3e0b4985c44480295f6ecd976a7ea47"/>
+    <element xsi:type="archimate:BusinessEvent" name="Запрос на накладную получен (Бизнес-события)" id="id-f6d635b99de24f3eacf42eac5eff51d7"/>
+    <element xsi:type="archimate:BusinessProcess" name="Оценить запрос (Бизнес-процесс)" id="id-be327220ce734c3d8f5511e67cfc6014"/>
+    <element xsi:type="archimate:BusinessProcess" name="Уведомить о принятии (Бизнес-процесс)" id="id-8baa3dc1e7b2414c9b03f72daa56a29c"/>
+    <element xsi:type="archimate:BusinessProcess" name="Оплатить (Бизнес-процесс)" id="id-f5ebc4eb0b4d45eaba011fd43f6950fe"/>
+    <element xsi:type="archimate:BusinessProcess" name="Уведомить об отклонении (Бизнес-процесс)" id="id-cbfe5e06137f4cb584df5a43d6ba5cd9"/>
+  </folder>
+  <folder name="Application" id="id-c70519cd959e4cb5b39dd39d3902b326" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-bc585a10f0674b549f9cd20347d9ca35" type="technology"/>
+  <folder name="Motivation" id="id-e5c5d35309d84ff7b63f9d5877879536" type="motivation">
+    <element xsi:type="archimate:Goal" name="Повысить прибыль (Цель)" id="id-fc760bebb75847e4aaa83e60f0a61adb"/>
+    <element xsi:type="archimate:Goal" name="Увеличить доходы (Цель)" id="id-e1684b982abd4d95abe843c9a6fe4c26"/>
+    <element xsi:type="archimate:Outcome" name="Потеря клиентов (Итог)" id="id-bdcdeaf5ca7a49c08ce2ee897dff3c44"/>
+    <element xsi:type="archimate:Goal" name="Сократить расходы (Цель)" id="id-14a7cd4bdb034949b0f177ea28e35428"/>
+    <element xsi:type="archimate:Outcome" name="Сокращённые расходы (Итог)" id="id-33f923e1c78f49838cb0db1e7e753e51"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-46d0f9d4d832479fbfad5920a5ec40ba" type="implementation_migration"/>
+  <folder name="Other" id="id-38d40e853c444657b31660551487d15d" type="other">
+    <element xsi:type="archimate:Location" name="Головной офис (Местоположение)" id="id-4d62242a2ca549ddbcf0d2ce072adedb"/>
+    <element xsi:type="archimate:Junction" name="Junction" id="id-7e75b310479f4685a3d212a97c5c1158" type="or"/>
+  </folder>
+  <folder name="Relations" id="id-e5009ac54fe6435bbe807242e62ea47f" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="id-befbcae5393647a7933b131994f5b381" source="id-276189c3026c4e0ca8e26847f387b0f3" target="id-d85617d56d8a4f4faead357d0c34db87"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-d1cf83fe343e4ff89f41c968e8b86d43" source="id-d85617d56d8a4f4faead357d0c34db87" target="id-95c330d5bbea4f3d95c977f11845402a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-a57ea62f8e9a4e4f93ef738b12d5877f" source="id-ab7ae377eaa74eb79ca8c9652d61ea3b" target="id-95c330d5bbea4f3d95c977f11845402a"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-6189b7dec4b94042aae5f3d545102bb1" source="id-95c330d5bbea4f3d95c977f11845402a" target="id-33f923e1c78f49838cb0db1e7e753e51"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-4215336882754cfa8b622a6cb8609b76" source="id-fc760bebb75847e4aaa83e60f0a61adb" target="id-14a7cd4bdb034949b0f177ea28e35428"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-ea44b986b6e2425e832281784d3bbbd9" source="id-ab7ae377eaa74eb79ca8c9652d61ea3b" target="id-907f3b9701954131b184101beb833807"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-715ef7d0880d46bc888325e436f86ef6" source="id-14a7cd4bdb034949b0f177ea28e35428" target="id-ab7ae377eaa74eb79ca8c9652d61ea3b"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-49d2e2c88572473faeb4543fc0714ffe" source="id-33f923e1c78f49838cb0db1e7e753e51" target="id-14a7cd4bdb034949b0f177ea28e35428"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-0a79f6558582421ab7532666189514c6" source="id-907f3b9701954131b184101beb833807" target="id-33f923e1c78f49838cb0db1e7e753e51"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-b7dfeb2d3e1642a4a2216e7d8862a351" source="id-bdcdeaf5ca7a49c08ce2ee897dff3c44" target="id-e1684b982abd4d95abe843c9a6fe4c26"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-6179edc2e65241b08936d3c87ea51061" source="id-fc760bebb75847e4aaa83e60f0a61adb" target="id-e1684b982abd4d95abe843c9a6fe4c26"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-17e45b1a347e49788ff885dac469184a" source="id-4d62242a2ca549ddbcf0d2ce072adedb" target="id-a4e2c3d34b3b4fc392588006d3be4693"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-d52b33fbc56045899ecd3022822fd435" source="id-8d30fbd28f224cbdaf68862abf249804" target="id-907f3b9701954131b184101beb833807"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-beed99b62b1e46908f394138a16216c1" source="id-4d62242a2ca549ddbcf0d2ce072adedb" target="id-276189c3026c4e0ca8e26847f387b0f3"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-114fda3b2b2b4b09a5696f98361b7392" source="id-907f3b9701954131b184101beb833807" target="id-bdcdeaf5ca7a49c08ce2ee897dff3c44"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-477bac0142844208af2b88356c27bd1f" source="id-a4e2c3d34b3b4fc392588006d3be4693" target="id-d85617d56d8a4f4faead357d0c34db87"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-01dae855a06e461abac49fc233f382d1" source="id-ea52b383728d4d25a0e0f10250cd61e6" target="id-9ba2074bbac94180929eb5676d209c14"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-899cefca20814e95981b91288f68bb3d" source="id-9ba2074bbac94180929eb5676d209c14" target="id-cb1de70668984ca39097fbbba9c9ddad"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-498512c34d1a44dfbcd2c8419329d01c" source="id-cb1de70668984ca39097fbbba9c9ddad" target="id-d267e69e8edb403c9a121a4529203872"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-cd3ab68a71e647dfb1d192b2a2fcde21" source="id-d267e69e8edb403c9a121a4529203872" target="id-9b03626b0a5144688cd0e6bdd50f6e49"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-5c6b8854f8d3486fb68854192e7b94f8" source="id-941e3d3337a14426b20d94c4be7f1d23" target="id-60a2930a0ed845609e9fb7e597d3e5d6"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-fadc3a93d27f48689b23c7f9257ea755" source="id-60a2930a0ed845609e9fb7e597d3e5d6" target="id-0ce7c6c25d7c4190a907c2a1e2f91787"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-5a7daa0bf9e54023bb440a743885a30c" source="id-870f978aa6f24d87970d8c281bde4725" target="id-bc58f271c75f4682afc49842a13798a8"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-bb4b1782d8cf482fab0cb8b12021f175" source="id-f3e0b4985c44480295f6ecd976a7ea47" target="id-bc58f271c75f4682afc49842a13798a8"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-52d50672f88b457abf6abe43704b6bfa" source="id-f6d635b99de24f3eacf42eac5eff51d7" target="id-be327220ce734c3d8f5511e67cfc6014"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-b8493ba8fa244156a75c13e88c6c64b4" source="id-be327220ce734c3d8f5511e67cfc6014" target="id-7e75b310479f4685a3d212a97c5c1158"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-355d5570f4924a99bf65cb60e4f316ff" source="id-7e75b310479f4685a3d212a97c5c1158" target="id-8baa3dc1e7b2414c9b03f72daa56a29c"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-8f53b607f7d546989c1d1993917c3335" source="id-7e75b310479f4685a3d212a97c5c1158" target="id-cbfe5e06137f4cb584df5a43d6ba5cd9"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-ee3bc98f957f4694953808395cff173c" source="id-8baa3dc1e7b2414c9b03f72daa56a29c" target="id-f5ebc4eb0b4d45eaba011fd43f6950fe"/>
+  </folder>
+  <folder name="Views" id="id-35d73eafd5d34a628543a81ad57c8bdb" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Влияние" id="id-9db3b40879b4420485dbd240afaece09">
+      <child xsi:type="archimate:DiagramObject" id="id-1c8ef040ab1e446399496f3ac227c4e2" archimateElement="id-fc760bebb75847e4aaa83e60f0a61adb">
+        <bounds x="1170" y="174" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-07954b5171a1470da3b32d3a57b13326" source="id-1c8ef040ab1e446399496f3ac227c4e2" target="id-7449d671aad04232a8e9e997dc155f9f" archimateRelationship="id-6179edc2e65241b08936d3c87ea51061">
+          <feature name="labelExpression" value="Цель &quot;Увеличить доходы&quot; &#xA;является частью &#xA;Цели &quot;Повысить прибыль&quot;&#xA;/&#xD;&#xA;Цель &quot;Повысить прибыль&quot;&#xA; может включать в себя &#xA;Цель &quot;Увеличить доходы&quot;"/>
+          <bendpoint startX="684" startY="-3" endX="-1" endY="-89"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f3da5611051d429daebe5e858156f7a8" source="id-1c8ef040ab1e446399496f3ac227c4e2" target="id-b2d30738749246ccad8ac7f0e0907d51" archimateRelationship="id-4215336882754cfa8b622a6cb8609b76">
+          <feature name="labelExpression" value="Цель &quot;Сократить расходы&quot;&#xA; является частью &#xA;Цели &quot;Повысить прибыль&quot;&#xA;/&#xD;&#xA;Цель &quot;Повысить прибыль&quot; &#xA;может включать в себя &#xA;Цель &quot;Сократить расходы&quot;"/>
+          <bendpoint startX="-762" startY="3" endX="-7" endY="-90"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7449d671aad04232a8e9e997dc155f9f" targetConnections="id-07954b5171a1470da3b32d3a57b13326 id-e9fee664c741469990de19d7a59b12dd" archimateElement="id-e1684b982abd4d95abe843c9a6fe4c26">
+        <bounds x="1855" y="260" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-860effd1a2754d9eaee7be9588c159f6" targetConnections="id-9ce3bc5fd5d74152821e8cfb1c8329f3" archimateElement="id-bdcdeaf5ca7a49c08ce2ee897dff3c44">
+        <bounds x="1855" y="399" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e9fee664c741469990de19d7a59b12dd" source="id-860effd1a2754d9eaee7be9588c159f6" target="id-7449d671aad04232a8e9e997dc155f9f" archimateRelationship="id-b7dfeb2d3e1642a4a2216e7d8862a351">
+          <feature name="labelExpression" value="Итог &quot;Потеря клиентов&quot;&#xA; негативно влияет&#xD;&#xA;на Цель &quot;Увеличить доходы&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b2d30738749246ccad8ac7f0e0907d51" targetConnections="id-f3da5611051d429daebe5e858156f7a8 id-74bfb3d55c29409db7da34d116729b95" archimateElement="id-14a7cd4bdb034949b0f177ea28e35428">
+        <bounds x="415" y="267" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-5b3bed98a2144d2caed30047d68995aa" source="id-b2d30738749246ccad8ac7f0e0907d51" target="id-498b8871be8b4b4184125bd5b10d5185" archimateRelationship="id-715ef7d0880d46bc888325e436f86ef6">
+          <feature name="labelExpression" value="Направление действий &quot;Подстратегия &quot;централизация ИТ-систем&quot;&quot; &#xA;как-то связано с &#xA;Целью &quot;Сократить расходы&quot;"/>
+          <bendpoint startX="767" endX="12" endY="-186"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b1b09a0ed3ac4e4db0d46217a31d2651" targetConnections="id-612920ca6c594465a413e1fbebc17eb6 id-62712ce17b154008a3ee84f4b8de76ef" archimateElement="id-33f923e1c78f49838cb0db1e7e753e51">
+        <bounds x="415" y="406" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-74bfb3d55c29409db7da34d116729b95" source="id-b1b09a0ed3ac4e4db0d46217a31d2651" target="id-b2d30738749246ccad8ac7f0e0907d51" archimateRelationship="id-49d2e2c88572473faeb4543fc0714ffe">
+          <feature name="labelExpression" value="Итог &quot;Сокращённые расходы&quot;&#xA; позитивно влияет на &#xA;Цель &quot;Сокартить расходы&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-498b8871be8b4b4184125bd5b10d5185" targetConnections="id-5b3bed98a2144d2caed30047d68995aa" archimateElement="id-ab7ae377eaa74eb79ca8c9652d61ea3b">
+        <bounds x="1140" y="432" width="216" height="108"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e96cc33f520741c39150981a26745c3b" source="id-498b8871be8b4b4184125bd5b10d5185" target="id-e9e9f7133cba45e8bc2f7c1cffe4d4b7" archimateRelationship="id-a57ea62f8e9a4e4f93ef738b12d5877f">
+          <feature name="labelExpression" value="Направление действий &quot;Подстратегия &quot;централизация ИТ-систем&quot;&quot;&#xA; является частью &#xA;Направления действий &quot;Стратегия операционной эффективности &quot;&#xA;/&#xD;&#xA;Направление действий &quot;Стратегия операционной эффективности &quot;&quot; &#xA;может включать в себя &#xA;Направление действий &quot;Подстратегия &quot;централизация ИТ-систем&quot;&quot;"/>
+          <bendpoint startX="-396" startY="30" endX="381" endY="-171"/>
+          <bendpoint startX="-396" startY="198" endX="381" endY="-3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4d4d059c7a5d4f0482d7f79d67a74b8e" source="id-498b8871be8b4b4184125bd5b10d5185" target="id-363d1bb0df1840d893c762cd04413350" archimateRelationship="id-ea44b986b6e2425e832281784d3bbbd9">
+          <feature name="labelExpression" value="Направление действий &quot;Подстратегия &quot;Стандартизация продуктов&quot;&quot; &#xA;является частью&#xA; Направления действий &quot;Стратегия операционной эффективности&quot;&#xA;/&#xD;&#xA;Направление действий &quot;Стратегия операционной эффективности&quot;&#xA; может включать в себя &#xA;Направление действий &quot;Подстратегия &quot;Стандартизация продуктов&quot;&quot;"/>
+          <bendpoint startX="372" startY="6" endX="-333" endY="-196"/>
+          <bendpoint startX="372" startY="174" endX="-333" endY="-28"/>
+          <bendpoint startX="468" startY="258" endX="-230" endY="-26"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-363d1bb0df1840d893c762cd04413350" targetConnections="id-b4d1f01449f14fb589e5d46d539e6178 id-4d4d059c7a5d4f0482d7f79d67a74b8e" archimateElement="id-907f3b9701954131b184101beb833807">
+        <bounds x="1842" y="720" width="208" height="100"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9ce3bc5fd5d74152821e8cfb1c8329f3" source="id-363d1bb0df1840d893c762cd04413350" target="id-860effd1a2754d9eaee7be9588c159f6" archimateRelationship="id-114fda3b2b2b4b09a5696f98361b7392">
+          <feature name="labelExpression" value="Направление действий &quot;Подстратегия &quot;Стандартизация продуктов&quot;&quot; &#xA;позитивно влияет на&#xD;&#xA;Итог &quot;Потеря клиентов&quot;"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-62712ce17b154008a3ee84f4b8de76ef" source="id-363d1bb0df1840d893c762cd04413350" target="id-b1b09a0ed3ac4e4db0d46217a31d2651" archimateRelationship="id-0a79f6558582421ab7532666189514c6">
+          <feature name="labelExpression" value="Направление действий &quot;Подстратегия &quot;Стандартизация продуктов&quot;&quot;&#xA;Позитивно влияет на &#xA;Итог &quot;Сокращённые расходы&quot;"/>
+          <bendpoint startX="-482" startY="22" endX="989" endY="359"/>
+          <bendpoint startX="-866" startY="22" endX="605" endY="359"/>
+          <bendpoint startX="-866" startY="-338" endX="605" endY="-1"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-33228973aabb46eca787498914f23d09" archimateElement="id-8d30fbd28f224cbdaf68862abf249804">
+        <bounds x="1842" y="1104" width="185" height="88"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b4d1f01449f14fb589e5d46d539e6178" source="id-33228973aabb46eca787498914f23d09" target="id-363d1bb0df1840d893c762cd04413350" archimateRelationship="id-d52b33fbc56045899ecd3022822fd435">
+          <feature name="labelExpression" value="Способность &quot;Управление продуктами&quot; реализует Направление действий &quot;Подстратегия &quot;Стандартизация продуктов&quot;&quot;/&#xD;&#xA;Направление действий &quot;Подстратегия &quot;Стандартизация продуктов&quot;&quot; реализуется Способностью &quot;Управление продуктами&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e9e9f7133cba45e8bc2f7c1cffe4d4b7" targetConnections="id-e96cc33f520741c39150981a26745c3b id-ebb844721d6d44c7aaddfbc2abdd15a1" archimateElement="id-95c330d5bbea4f3d95c977f11845402a">
+        <bounds x="379" y="636" width="184" height="103"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-612920ca6c594465a413e1fbebc17eb6" source="id-e9e9f7133cba45e8bc2f7c1cffe4d4b7" target="id-b1b09a0ed3ac4e4db0d46217a31d2651" archimateRelationship="id-6189b7dec4b94042aae5f3d545102bb1">
+          <feature name="labelExpression" value="Направление действий &quot;Подстратегия &quot;централизация ИТ-систем&quot;&quot; &#xA;Позитивно влияет на &#xA;Итог &quot;Сокращённые расходы&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a0bbb784de7e404c910d7cc64866c3af" targetConnections="id-0bdc76bcffef4e1faa28bbdcf7c9f3b3 id-e6608576002e4c3b8949542bbb06ad42" archimateElement="id-d85617d56d8a4f4faead357d0c34db87">
+        <bounds x="402" y="894" width="161" height="76"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ebb844721d6d44c7aaddfbc2abdd15a1" source="id-a0bbb784de7e404c910d7cc64866c3af" target="id-e9e9f7133cba45e8bc2f7c1cffe4d4b7" archimateRelationship="id-d1cf83fe343e4ff89f41c968e8b86d43">
+          <feature name="labelExpression" value="Способность &quot;Управление и поддержка ИТ&quot;&#xA;реализует&#xA;Направление действий &quot;Подстратегия &quot;централизация ИТ-систем&quot;&quot;&#xA;/&#xD;&#xA;Направление действий &quot;Подстратегия &quot;централизация ИТ-систем&quot;&quot;&#xA;реализуется &#xA;Способностью &quot;Управление и поддержка ИТ&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-57c15100bd264d0292521e63fe45b26a" archimateElement="id-4d62242a2ca549ddbcf0d2ce072adedb">
+        <bounds x="732" y="1116" width="292" height="160"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-7afd5ec39fed4436989b15a831bdbf57" source="id-57c15100bd264d0292521e63fe45b26a" target="id-abdbc41e6afa45989a955431ee7e569c" archimateRelationship="id-17e45b1a347e49788ff885dac469184a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4f1a393326e54419a2b015c8866c7873" source="id-57c15100bd264d0292521e63fe45b26a" target="id-39cbfabeb8cc45a6bc0ef88d169cec51" archimateRelationship="id-beed99b62b1e46908f394138a16216c1"/>
+        <child xsi:type="archimate:DiagramObject" id="id-abdbc41e6afa45989a955431ee7e569c" targetConnections="id-7afd5ec39fed4436989b15a831bdbf57" archimateElement="id-a4e2c3d34b3b4fc392588006d3be4693">
+          <bounds x="12" y="72" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0bdc76bcffef4e1faa28bbdcf7c9f3b3" source="id-abdbc41e6afa45989a955431ee7e569c" target="id-a0bbb784de7e404c910d7cc64866c3af" archimateRelationship="id-477bac0142844208af2b88356c27bd1f">
+            <feature name="labelExpression" value="Ресурс &quot;Песронал&quot;&#xA;выполняет&#xA;Способности &quot;Управление и поддержка ИТ&quot;&#xA;/&#xD;&#xA;Способность &quot;Управление и поддержка ИТ&quot;&#xA;выполняется&#xA;Ресурсом &quot;Персонал&quot;"/>
+            <bendpoint startX="-335" endX="5" endY="234"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-39cbfabeb8cc45a6bc0ef88d169cec51" targetConnections="id-4f1a393326e54419a2b015c8866c7873" archimateElement="id-276189c3026c4e0ca8e26847f387b0f3">
+          <bounds x="156" y="72" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e6608576002e4c3b8949542bbb06ad42" source="id-39cbfabeb8cc45a6bc0ef88d169cec51" target="id-a0bbb784de7e404c910d7cc64866c3af" archimateRelationship="id-befbcae5393647a7933b131994f5b381">
+            <feature name="labelExpression" value="Ресурс &quot;ИТ ресурсы&quot;&#xA;выполняет &#xA;Способности &quot;Управление и поддержка ИТ&quot;&#xA;/&#xD;&#xA;Способность &quot;Управление и поддержка ИТ&quot;&#xA;выполняется&#xA; Ресурсом &quot;ИТ Ресурс&quot;"/>
+            <bendpoint startX="204" startY="9" endX="676" endY="262"/>
+            <bendpoint startX="204" startY="-279" endX="670" endY="4"/>
+            <bendpoint startX="-84" startY="-279" endX="382" endY="4"/>
+          </sourceConnection>
+        </child>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Триггер" id="id-e8633a96c0cf4e1494a724bca9eeff55">
+      <child xsi:type="archimate:DiagramObject" id="id-dd69e59bef4141fc9aa692b99068badb" archimateElement="id-ea52b383728d4d25a0e0f10250cd61e6">
+        <bounds x="108" y="105" width="157" height="79"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a6c1e78ae77e42c1802f5b7498ccdb13" source="id-dd69e59bef4141fc9aa692b99068badb" target="id-f65ca4f5ab6f410285ac6e626ae6be60" archimateRelationship="id-01dae855a06e461abac49fc233f382d1">
+          <feature name="labelExpression" value="Бизнес-событие &quot;Запрос на страхование получен&quot; &#xD;&#xA;запускает&#xA;Бизнес-процесс &quot;Получить запрос&quot;"/>
+          <bendpoint startX="6" startY="132" endX="-242" endY="-25"/>
+          <bendpoint startX="-30" startY="156" endX="-254" endY="-1"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-01041f30401244449b05315c9eb04af0" targetConnections="id-3fb3e80664f746b391cd9e15b50fb0cb" archimateElement="id-9b03626b0a5144688cd0e6bdd50f6e49">
+        <bounds x="1452" y="108" width="145" height="74"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f65ca4f5ab6f410285ac6e626ae6be60" targetConnections="id-a6c1e78ae77e42c1802f5b7498ccdb13" archimateElement="id-9ba2074bbac94180929eb5676d209c14">
+        <bounds x="360" y="264" width="148" height="75"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4da3d98b1c6747169a0ed53c9d773fde" source="id-f65ca4f5ab6f410285ac6e626ae6be60" target="id-5c53340fdf044ff08d9ff90fc833661e" archimateRelationship="id-899cefca20814e95981b91288f68bb3d">
+          <feature name="labelExpression" value="Бизнес-процесс &quot;Получить запрос&quot;&#xD;&#xA;запускает &#xA;Бизнес-процесс&quot;Обработать запрос&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5c53340fdf044ff08d9ff90fc833661e" targetConnections="id-4da3d98b1c6747169a0ed53c9d773fde" archimateElement="id-cb1de70668984ca39097fbbba9c9ddad">
+        <bounds x="768" y="268" width="137" height="67"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-7b826940b68946578c9f7e8495e942ed" source="id-5c53340fdf044ff08d9ff90fc833661e" target="id-410dd0586e9d40c5942dbc0ce5c5f7a5" archimateRelationship="id-498512c34d1a44dfbcd2c8419329d01c">
+          <feature name="labelExpression" value="Бизнес-процесс &quot;Обработать запрос&quot;&#xD;&#xA;запускает  &#xA;Бизнес-процесс &quot;Собрать страховые взносы&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-410dd0586e9d40c5942dbc0ce5c5f7a5" targetConnections="id-7b826940b68946578c9f7e8495e942ed" archimateElement="id-d267e69e8edb403c9a121a4529203872">
+        <bounds x="1200" y="264" width="144" height="76"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3fb3e80664f746b391cd9e15b50fb0cb" source="id-410dd0586e9d40c5942dbc0ce5c5f7a5" target="id-01041f30401244449b05315c9eb04af0" archimateRelationship="id-cd3ab68a71e647dfb1d192b2a2fcde21">
+          <feature name="labelExpression" value="Бизнес-процесс &quot;Собрать страховые взносы&quot; &#xD;&#xA;запускает  &#xA;Бизнес-событие &quot;Запрос удовлетворён&quot;"/>
+          <bendpoint startX="168" startY="-2" endY="155"/>
+          <bendpoint startX="276" startY="-26" endY="131"/>
+        </sourceConnection>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Поток" id="id-c8877bc66f8445fe941ed0e1d7e4cc01">
+      <child xsi:type="archimate:DiagramObject" id="id-8ffc69a85fac40e2bc309d23e11e62f6" archimateElement="id-941e3d3337a14426b20d94c4be7f1d23">
+        <bounds x="561" y="87" width="148" height="82"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8f20f10d60054029bb12a009890d1f84" source="id-8ffc69a85fac40e2bc309d23e11e62f6" target="id-38f165f529cf4f8792ef357011ca9311" archimateRelationship="id-5c6b8854f8d3486fb68854192e7b94f8">
+          <feature name="labelExpression" value="Данные о графике платежей"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-38f165f529cf4f8792ef357011ca9311" targetConnections="id-8f20f10d60054029bb12a009890d1f84" archimateElement="id-60a2930a0ed845609e9fb7e597d3e5d6">
+        <bounds x="564" y="264" width="145" height="85"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-69ac6314400d4af4a82617fd02bdecfa" source="id-38f165f529cf4f8792ef357011ca9311" target="id-bc29e47cd1624d8c88e6c9be566b46cd" archimateRelationship="id-fadc3a93d27f48689b23c7f9257ea755">
+          <feature name="labelExpression" value="Решение"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bc29e47cd1624d8c88e6c9be566b46cd" targetConnections="id-69ac6314400d4af4a82617fd02bdecfa" archimateElement="id-0ce7c6c25d7c4190a907c2a1e2f91787">
+        <bounds x="564" y="420" width="145" height="97"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Специализация" id="id-d3dc5476aeae4f23bf028c92ae0d7d84">
+      <child xsi:type="archimate:DiagramObject" id="id-7c5d428b903d450f92b13733cfb3f185" archimateElement="id-870f978aa6f24d87970d8c281bde4725">
+        <bounds x="216" y="396" width="151" height="84"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b5207a8a626b4c7fa44180d939edbdb7" source="id-7c5d428b903d450f92b13733cfb3f185" target="id-e7bca50b389d4d1a886a5d1dd6e2c6dd" archimateRelationship="id-5a7daa0bf9e54023bb440a743885a30c">
+          <feature name="labelExpression" value="Бизнес процесс &quot;Оформить страховку на поездку&quot;&#xA;является специализацией&#xA;Бизнес-процесса &quot;Оформить страховку&quot;"/>
+          <bendpoint startX="3" startY="-235" endX="-291" endY="-6"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e7bca50b389d4d1a886a5d1dd6e2c6dd" targetConnections="id-b5207a8a626b4c7fa44180d939edbdb7 id-a8497c45a35e4a3e936e9e5223ec331b" archimateElement="id-bc58f271c75f4682afc49842a13798a8">
+        <bounds x="516" y="156" width="151" height="84"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0ad7c3772eeb477b9fba3332b6ed7660" archimateElement="id-f3e0b4985c44480295f6ecd976a7ea47">
+        <bounds x="840" y="396" width="151" height="84"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a8497c45a35e4a3e936e9e5223ec331b" source="id-0ad7c3772eeb477b9fba3332b6ed7660" target="id-e7bca50b389d4d1a886a5d1dd6e2c6dd" archimateRelationship="id-bb4b1782d8cf482fab0cb8b12021f175">
+          <feature name="labelExpression" value="Бизнес процесс &quot;Оформить страховку на багаж&quot;&#xA;является специализацией&#xA;Бизнес-процесса &quot;Оформить страховку&quot;"/>
+          <bendpoint startX="9" startY="-222" endX="333" endY="-6"/>
+        </sourceConnection>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Коннекторы" id="id-a874e9f52eb746dcbb93386acc490e07">
+      <child xsi:type="archimate:DiagramObject" id="id-a7f8fe955e0a42e6bf3815f833b886ab" archimateElement="id-f6d635b99de24f3eacf42eac5eff51d7">
+        <bounds x="-72" y="258" width="150" height="85"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-6b170660b3f74dfd820510a63e0ec150" source="id-a7f8fe955e0a42e6bf3815f833b886ab" target="id-622ea8244d334056be6181e10146bafe" archimateRelationship="id-52d50672f88b457abf6abe43704b6bfa">
+          <feature name="labelExpression" value="Бизнес-события &quot;Запрос на накладную получен&quot;&#xD;&#xA;запускает &#xA;Бизнес-процесс&quot;Оценить запрос&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-622ea8244d334056be6181e10146bafe" targetConnections="id-6b170660b3f74dfd820510a63e0ec150" archimateElement="id-be327220ce734c3d8f5511e67cfc6014">
+        <bounds x="420" y="271" width="139" height="72"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-59f1ced6f06046faa9edf494067cd685" source="id-622ea8244d334056be6181e10146bafe" target="id-5316170bc1314faf842db0bfd5e67a40" archimateRelationship="id-b8493ba8fa244156a75c13e88c6c64b4">
+          <feature name="labelExpression" value="Бизнес-события &quot;Оценить запрос&quot; &#xD;&#xA;запускает &#xA;Коннектор &quot;или&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5316170bc1314faf842db0bfd5e67a40" targetConnections="id-59f1ced6f06046faa9edf494067cd685" archimateElement="id-7e75b310479f4685a3d212a97c5c1158">
+        <bounds x="857" y="299" width="15" height="15"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a428d8c704f449969290968b2b423e43" source="id-5316170bc1314faf842db0bfd5e67a40" target="id-25d8938136aa49ceabd656a523bf862c" archimateRelationship="id-355d5570f4924a99bf65cb60e4f316ff">
+          <feature name="labelExpression" value="Принять"/>
+          <bendpoint startX="5" startY="-138" endX="-145" endY="3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-895650a1d2dc4eb1b1295a352533a6fa" source="id-5316170bc1314faf842db0bfd5e67a40" target="id-4533b4924dca4f4397c9038512a20684" archimateRelationship="id-8f53b607f7d546989c1d1993917c3335">
+          <feature name="labelExpression" value="Отменить"/>
+          <bendpoint startY="126" endX="-150" endY="3"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-25d8938136aa49ceabd656a523bf862c" targetConnections="id-a428d8c704f449969290968b2b423e43" archimateElement="id-8baa3dc1e7b2414c9b03f72daa56a29c">
+        <bounds x="934" y="132" width="147" height="67"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c3208c6875574223978df11a8f01d3f0" source="id-25d8938136aa49ceabd656a523bf862c" target="id-c31dd46931e742579d86bff8e505c334" archimateRelationship="id-ee3bc98f957f4694953808395cff173c">
+          <feature name="labelExpression" value="Бизнес-процесс &quot;Уведомление о принятии&quot;&#xD;&#xA;запускает &#xA;Бизнес процесс&quot;Оплатить&quot;"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c31dd46931e742579d86bff8e505c334" targetConnections="id-c3208c6875574223978df11a8f01d3f0" archimateElement="id-f5ebc4eb0b4d45eaba011fd43f6950fe">
+        <bounds x="1416" y="138" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4533b4924dca4f4397c9038512a20684" targetConnections="id-895650a1d2dc4eb1b1295a352533a6fa" archimateElement="id-cbfe5e06137f4cb584df5a43d6ba5cd9">
+        <bounds x="948" y="396" width="133" height="66"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
