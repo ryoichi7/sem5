@@ -1,0 +1,55 @@
+# Blender 4.3.0 MTL File: 'awp_render.blend'
+# www.blender.org
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.004
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.006
+Ns 0.000000
+Ka 0.397727 0.397727 0.397727
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Текстуры/Plastic009_2K-PNG/Plastic009_2K-PNG_Color.png
+map_Bump -bm 1.000000 Текстуры/Plastic009_2K-PNG/Plastic009_2K-PNG_NormalGL.png
+
+newmtl Material.007
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Ns Текстуры/Leather033A_2K-PNG/Leather033A_2K-PNG_Roughness.png
+map_Bump -bm 1.000000 Текстуры/Leather033A_2K-PNG/Leather033A_2K-PNG_NormalGL.png
+
+newmtl Material.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Текстуры/Plastic006_2K-PNG/Plastic006_2K-PNG_Color.png
+map_Bump -bm 1.000000 Текстуры/Plastic006_2K-PNG/Plastic006_2K-PNG_NormalGL.png
