@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/data.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/migration.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/queries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../prac3/operations.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../prac4/window-fun.sql" dialect="PostgreSQL" />
   </component>
 </project>

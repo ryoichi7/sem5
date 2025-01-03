@@ -27,7 +27,8 @@ SELECT user_id FROM reviews;
 
 SELECT product_id, AVG(rating) AS average_rating
 FROM reviews
-GROUP BY product_id;
+GROUP BY product_id
+HAVING AVG(rating) > 2;
 
 SELECT product_name, price
 FROM products
